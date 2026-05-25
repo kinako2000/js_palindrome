@@ -1,0 +1,32 @@
+{
+  "name": "kinako2003k-palindrome-js",
+  "version": "0.1.2",
+  "description": "Palindrome detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "browserify main.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinako2000/js_tutorial.git"
+  },
+  "keywords": [
+    "palindrome",
+    "learn-enough",
+    "javascript"
+  ],
+  "author": "kohji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinako2000/js_tutorial/issues"
+  },
+  "homepage": "https://github.com/kinako2000/js_tutorial#readme",
+  "devDependencies": {
+    "browserify": "^17.0.1",
+    "mocha": "^11.7.5"
+  },
+  "dependencies": {
+    "kinako2003k-palindrome-js": "^0.1.2"
+  }
+}
