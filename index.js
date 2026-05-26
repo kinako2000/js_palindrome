@@ -52,8 +52,12 @@ this.letters = function letters() {
       return theLetters.join("");
     }
 */
-  // パリンドロームならtrueを、違うならfalseを返す
-  this.palindrome = function palindrome() {
-  return this.processedContent() === this.processedContent().reverse();
+// パリンドロームならtrueを、違うならfalseを返す
+this.palindrome = function palindrome() {
+  if (this.processedContent()) {
+    return this.processedContent() === this.processedContent().reverse();
+  } else {
+    return false;
   }
+}
 }

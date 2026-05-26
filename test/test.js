@@ -17,6 +17,10 @@ describe("Phrase", function() {
             let plainPalindrome = new Phrase("Racecar");
             assert(plainPalindrome.palindrome());
         });
+        it("空文字の場合はfalseを返す", function() {
+            let emptyPhrase = new Phrase("");
+            assert(!emptyPhrase.palindrome());
+        });
     });
     describe("#letters", function() {
         it("文字だけを返す", function() {
